@@ -1,0 +1,81 @@
+* { margin: 0; padding: 0; }
+body { background: #01ace4; color: #4c566c; font-family: Helvetica, Arial, sans-serif; font-size: 17px; text-shadow: 0px 1px 0px #ccc; }
+a { text-decoration: none; color: #002246; }
+a img { border: 0; }
+table { border: 0; border-collapse: collapse; margin: 0; padding: 0; }
+td { padding: 0; margin: 0; }
+h1 { font-size: 17px; margin: 0 20px 10px 20px; color: #fff; text-shadow: 0px 1px 0px #333; font-weight: bold; }
+h1  a { color: #fff; }
+p { margin-bottom: 1em; }
+#head { background: url(../../img/head-x.png) repeat-x; margin-bottom: 10px; }
+#head h1 { background: url(i/unlimited-qr_header_home.png) no-repeat; height: 47px; margin: 0 0 0 47px; }
+#head h1 a { display: block; text-indent: -9999px; height: 47px; }
+#homepage #head h1 { margin: 0; }
+ul.ui { clear: both; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; border: 1px solid #fff; border-width: 1px 1px 1px 1px; margin: 10px 10px 20px 10px; list-style: none; }
+ul.ui li, ol.ui li 	{ padding: 10px 10px 10px 10px; border-bottom: 1px solid #d9d9d9; font-family: Helvetica; font-size: 17px; }
+ul.ui li:last-child,
+ol.ui li:last-child { border-bottom: none; }
+ul.ui li a { display: block; background: url(i/arrow_single.png) no-repeat right 50%; vertical-align: middle; }
+.ui.admin { opacity: .7; }
+li a.nobold { font-weight: normal;  }
+ol { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; border: 1px solid #fff; border-width: 1px 1px 0 1px; margin: 10px; }
+ol.ui { list-style: none; }
+ul#question { /*margin-left: 35px;*/ list-style: none; }
+ul#question li { margin-bottom: 5px; }
+ul#question input { margin-right: 10px; }
+a.inline { display: inline; }
+span.metadata { font-size: 11px; color: #999; text-shadow: 1px 1px 0px #ddd; font-variant: small-caps; text-transform: uppercase; }
+.data, .message { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; border: 1px solid #fff; border-width: 1px 1px 0 1px; margin: 10px 10px 20px 10px; padding: 17px 10px; }
+.wall { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; border: 1px solid #fff; border-width: 1px 1px 0 1px; margin: 10px 10px 20px 10px; padding: 10px 10px; }
+.q_res { background: #01ace4; height: 5px; margin-top: 15px; margin-bottom: 10px; -webkit-border-radius: 4px; }
+p.w { color: #fff; margin: 0 20px 1em 20px; }
+div.data p { word-wrap:break-word; }
+div.data p:last-child { margin-bottom: 0; }
+#map_zi, #map_zo { font-size: 16px; font-family: Helvetica, Arial, sans-serif; background: #002246; border: 1px solid #002246; -webkit-border-radius: 5px; color: #fff; padding: 5px 10px; }
+#map_zi { float: left; }
+#map_zo { float: right; }
+div.content { color: #fff; margin: 0 20px 1em 20px; }
+.data.foot {
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-bottom-right-radius: 0;
+	margin-bottom: 0;
+	font-size: 13px;
+}
+#ui_back { float: left;  }
+#profile_image, .avatar { float: left; margin-right: 10px; margin-bottom: 20px;}
+#profile_image_edit { float: left; margin-right: 10px; border: 1px solid #d9d9d9; }
+#profile_data { float: left; }
+#profile_data p { margin-bottom: 0; font-size: 14px; text-shadow: 1px 1px 0px #333;  }
+.link_button_action { font-size: 16px; font-family: Helvetica, Arial, sans-serif; background: #002246; border: 1px solid #002246; -webkit-border-radius: 5px; color: #fff; padding: 5px 10px; float: left; }
+.link_button_delete { font-size: 16px; font-family: Helvetica, Arial, sans-serif; background: #f00 !important; border: 1px solid #f00; -webkit-border-radius: 5px; color: #fff; padding: 5px 10px; float: right; /*margin-top: 10px;*/ }
+.comment_delete_link { background: #f00 !important; border: 1px solid #f00; -webkit-border-radius: 5px; color: #fff; padding: 5px 10px; }
+div.field { margin-bottom: 10px; }
+div.field label { display: block; font-size:16px; font-weight:bold; margin-bottom: 5px; }
+div.field .input-text, div.field input[type=text] { font-family: Helvetica, Arial, sans-serif; font-size: 18px; border: 1px solid #d9d9d9; -webkit-border-radius: 5px; width:100%; padding: 5px 0; }
+div.field .input-select { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 18px; border: 1px solid #d9d9d9; -webkit-border-radius: 5px; width:100%; padding: 5px 0; }
+div.field .submit-wrapper input, .input-submit { font-size: 16px; font-family: Helvetica, Arial, sans-serif; background: #002246; border: 1px solid #002246; -webkit-border-radius: 5px; color: #fff; padding: 5px 10px; }
+.field .notice { font-size: 12px; }
+#rsvp_radios { margin-bottom: 10px; }
+#rsvp_radios input, #rsvp_radios label { margin-bottom: 5px; margin-right: 10px; }
+#comment_textarea, textarea { width: 100%; font-family: Helvetica, Arial, sans-serif; font-size: 18px; border: 1px solid #d9d9d9; -webkit-border-radius: 5px; margin-bottom: 17px; }
+div.message.error { background: #ff5656; border-color: #ff5656; color: #fff; }
+div.message.confirmation { background: #002145; border-color: #002145; color: #fff; }
+div.message.confirmation a { color: #01ACE4; text-shadow:0 1px 0 #0062CD;}
+div.message p { margin-bottom: 0; }
+div.message ul, #comments ol { margin: 0; padding: 0; list-style: none; border: none; border-radius: none; -moz-border-radius: 0; -webkit-border-radius: 0; background: none; }
+div.message li { padding: 0; border-bottom: 0; }
+#comments { background: #fff; padding: 0 10px; margin-bottom: 20px; }
+#comments ol { list-style: none; }
+#comments li { padding: 17px 0; border-bottom: 1px solid #d9d9d9; margin-bottom: 0; }
+#comments li:last-child { border-bottom: 0; }
+#comments a { display: inline; }
+ul#ratings { list-style: none; clear: both; margin-bottom: 0px; min-height: 22px; }
+ul#ratings li { float: left; text-align: center; }
+ul#ratings li img { margin: 0 14px; }
+p#current_rating { text-align: center; }
+p#current_rating img { margin: 0 14px; }
+#profile_nav a { background: url(i/UITabBarContacts.jpg) no-repeat; min-height: 28px; line-height: 28px; padding-left: 32px; }
+#homepage_nav a { background: url(../../img/home_icon.png) no-repeat; min-height: 28px; line-height: 28px; padding-left: 32px; }
+.clear { clear: both; }
