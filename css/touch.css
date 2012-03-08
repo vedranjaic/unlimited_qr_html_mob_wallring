@@ -1,4 +1,5 @@
 * { margin: 0; padding: 0; }
+.no_mr {margin-right:0 !important;}
 body { background: #01ace4; color: #4c566c; font-family: Helvetica, Arial, sans-serif; font-size: 17px; text-shadow: 0px 1px 0px #ccc; }
 a { text-decoration: none; color: #002246; }
 a img { border: 0; }
@@ -23,10 +24,13 @@ ol.ui { list-style: none; }
 ul#question { /*margin-left: 35px;*/ list-style: none; }
 ul#question li { margin-bottom: 5px; }
 ul#question input { margin-right: 10px; }
+ul.wallgall {list-style-type:none;}
+ul.wallgall img {display:inline-block; width:68px; height:68px; border:1px solid #fff; }
+ul.wallgall li {float:left; width:70px; height:70px;}
 a.inline { display: inline; }
 span.metadata { font-size: 11px; color: #999; text-shadow: 1px 1px 0px #ddd; font-variant: small-caps; text-transform: uppercase; }
 .data, .message { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; border: 1px solid #fff; border-width: 1px 1px 0 1px; margin: 10px 10px 20px 10px; padding: 17px 10px; }
-.wall { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; border: 1px solid #fff; border-width: 1px 1px 0 1px; margin: 10px 10px 20px 10px; padding: 10px 10px; }
+.wall { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; margin: 10px 10px 20px 10px; padding: 10px 10px; }
 .q_res { background: #01ace4; height: 5px; margin-top: 15px; margin-bottom: 10px; -webkit-border-radius: 4px; }
 p.w { color: #fff; margin: 0 20px 1em 20px; }
 div.data p { word-wrap:break-word; }
