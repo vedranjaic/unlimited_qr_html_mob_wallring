@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Unlimited QR</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link id="ctl00_styleLink" type="text/css" rel="Stylesheet" href="style.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>Í
+	<script type="text/javascript">
+
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-16836771-1']);
+	    _gaq.push(['_trackPageview']);
+
+	    (function() {
+	        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+
+	</script>
+</head>
+<body>
+
+
+    <div class="hiHeader"><a href="#"><img src="/img/home.png" alt="" height="47" width="225" /></a></div>
+    <div class="lowHeader"><a href="#">Unlimited QR</a></div>
+    <ul class="ui">
+        <li><a href="wallpaper_al.html">Galeria</a></li>
+        <li><a href="ringtone_al.html">Cingërrima</a></li>
+	</ul>
+
+	<form action="#" method="post">
+    	<select name="country" id="country">
+        	<option value="ENG">ENG</option>
+			<option value="CRO">CRO</option>
+			<option value="SRB">SRB</option>
+			<option value="BiH">BiH</option>
+        	<option value="SLO">SLO</option>
+            <option value="MNE">MNE</option>
+            <option value="MKD">MKD</option>
+            <option selected="selected" value="ALB">ALB</option>
+        </select>
+    </form>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#country").change(function(){
+			switch($(this).val()){
+				case "ENG":
+					window.location.href = "../index.aspx?lang=en";
+					break;
+				case "CRO":
+					window.location.href = "../index.aspx?lang=hr";
+					break;
+				case "SRB":
+					window.location.href = "../index.aspx?lang=rs";
+					break;
+				case "BiH":
+					window.location.href = "../index.aspx?lang=ba";
+					break;
+				case "SLO":
+					window.location.href = "index_si.html";
+					break;
+				case "MNE": 
+					window.location.href = "index_me.html";
+					break;
+				case "MKD":
+					window.location.href = "index_mk.html";
+					break;
+				case "ALB":
+					window.location.href = "index_al.html";
+					break;
+			}
+		})	
+	})
+</script>
+</body>
+</html>

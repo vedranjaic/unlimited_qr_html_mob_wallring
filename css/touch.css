@@ -17,6 +17,7 @@ ul.ui li, ol.ui li 	{ padding: 10px 10px 10px 10px; border-bottom: 1px solid #d9
 ul.ui li:last-child,
 ol.ui li:last-child { border-bottom: none; }
 ul.ui li a { display: block; background: url(i/arrow_single.png) no-repeat right 50%; vertical-align: middle; }
+ul.ui li a.mp3 span { background-color:#01ace4; padding:2px 6px 3px 6px; color:#fff; float:right; vertical-align:middle; font-size:10px; -webkit-border-radius:3px; }
 .ui.admin { opacity: .7; }
 li a.nobold { font-weight: normal;  }
 ol { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; border: 1px solid #fff; border-width: 1px 1px 0 1px; margin: 10px; }
@@ -24,13 +25,15 @@ ol.ui { list-style: none; }
 ul#question { /*margin-left: 35px;*/ list-style: none; }
 ul#question li { margin-bottom: 5px; }
 ul#question input { margin-right: 10px; }
+.stickerNew {position:absolute; top:9px; left:9px; }
+.stickerNew img {width:76px; height:45px;}
 ul.wallgall {list-style-type:none;}
 ul.wallgall img {display:inline-block; width:68px; height:68px; border:1px solid #fff; }
 ul.wallgall li {float:left; width:70px; height:70px;}
 a.inline { display: inline; }
 span.metadata { font-size: 11px; color: #999; text-shadow: 1px 1px 0px #ddd; font-variant: small-caps; text-transform: uppercase; }
 .data, .message { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; border: 1px solid #fff; border-width: 1px 1px 0 1px; margin: 10px 10px 20px 10px; padding: 17px 10px; }
-.wall { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; margin: 10px 10px 20px 10px; padding: 10px 10px; }
+.wall, #ring_iphone, #ring_android { position:relative; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; background: #fff; margin: 10px 10px 20px 10px; padding: 10px 10px; }
 .q_res { background: #01ace4; height: 5px; margin-top: 15px; margin-bottom: 10px; -webkit-border-radius: 4px; }
 p.w { color: #fff; margin: 0 20px 1em 20px; }
 div.data p { word-wrap:break-word; }

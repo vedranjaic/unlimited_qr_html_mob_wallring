@@ -10,9 +10,25 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<link type="text/css" rel="stylesheet" href="/css/touch.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="http://code.google.com/apis/gears/gears_init.js" type="text/javascript" charset="utf-8"></script> 
-	<script src="/js/geo.js" type="text/javascript" charset="utf-8"></script> 
+	<script src="/js/geo.js" type="text/javascript" charset="utf-8"></script>
 	<title>Unlimited QR</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var useragent = navigator.userAgent;
+			useragent = useragent.toLowerCase();
+
+			if (useragent.indexOf('iphone') != -1 ) 
+			{
+				$('#ring_iphone').show();
+			} 
+			else if(useragent.indexOf('android') != -1)
+			{
+				$('#ring_android').show();
+			}
+		});
+	</script>
 </head>
 
 <body>
@@ -29,32 +45,26 @@
 		</table>
 	</div><!-- /head -->
 
-	<h1>Wallpaperi</h1>
-	<p class="w">Svaki mesec očekuju vas nove pozadine koje možete da postavite na svoj mobilni uređaj</p>
+	<h1>Ringtonovi</h1>
+	<p class="w">Svaki mesec očekuju vas novi ringtonovi koje možete da postavite na svoje mobilne uređaje</p>
 	
 	<div class="wall">
-		<a href="wallpapers/01_palma_mob.jpg"><img src="wallpapers/01_palma_feat.jpg" width="100%" /></a>
-		<div class="stickerNew">
-			<img src="m_images/sticker_new.png" />
-		</div><!-- /.stickerNew -->
+		<img src="ringtones/ringtone_feat.jpg" width="100%" />
 	</div><!-- /.wall -->
 	
-	<div class="wall">
-		<ul class="wallgall">
-			<li><a href="wallpapers/02_pijesak_mob.jpg"><img src="wallpapers/gallery/02_pijesak.jpg" /></a></li>
-			<li><a href="wallpapers/03_sumrak_mob.jpg"><img src="wallpapers/gallery/03_sumrak.jpg" /></a></li>
-			<li><a href="wallpapers/04_nebo_mob.jpg"><img src="wallpapers/gallery/04_nebo.jpg" /></a></li>
-			<li class="no_mr"><a href="wallpapers/05_plaza_mob.jpg"><img src="wallpapers/gallery/05_plaza.jpg" /></a></li>
-			<li><a href="wallpapers/06_palma2_mob.jpg"><img src="wallpapers/gallery/06_palma2.jpg" /></a></li>
-			<li><a href="wallpapers/07_brod_mob.jpg"><img src="wallpapers/gallery/07_brod.jpg" /></a></li>
-			<li><a href="wallpapers/08_stijena_mob.jpg"><img src="wallpapers/gallery/08_stijena.jpg" /></a></li>
-			<li class="no_mr"><a href="wallpapers/09_zvijezde_mob.jpg"><img src="wallpapers/gallery/09_zvijezde.jpg" /></a></li>
-			<li><a href="wallpapers/10_camac_mob.jpg"><img src="wallpapers/gallery/10_camac.jpg" /></a></li>
-			<li><a href="wallpapers/11_skoljka_mob.jpg"><img src="wallpapers/gallery/11_skoljka.jpg" /></a></li>
-			<li><a href="wallpapers/12_uvala_mob.jpg"><img src="wallpapers/gallery/12_uvala.jpg" /></a></li>
-			<div class="clear"></div><!-- /.clear -->
-		</ul>
-	</div><!-- /.wall -->
+	<div id="ring_iphone" style="display:none;">
+		<p>Vaš iPhone prema tvorničkim postavkama nema mogućnost preuzimanja ringtoneova, no preporučamo da to pokušate putem aplikacije <a href="itms-apps://itunes.apple.com/hr/app/downloads-lite-downloader/id349275540?mt=8&ls=1">Downloads Lite</a>.</p>
+	</div><!-- /.ring -->
+	
+	<div id="ring_android" style="display:none;">
+		<p>Kako biste ringtone preuzeli na Vaš Android uređaj, molimo da kliknete na željeni ringtone i držite dok se ne pojavi sekundarni menu te odaberite "Save link".</p>
+	</div><!-- /.ring -->
+	
+	<ul class="ui">
+		<li><a href="../media/selinas_kpm_549_1400.mp3" class="mp3">Jeevan Anandasivam - Selinas<span>mp3</span></a></li>
+		<li><a href="../media/chapav_185_3_funk_fever_salkeld_63122.mp3" class="mp3">Adam Salkeld - Funk Fever<span>mp3</span></a></li>
+		<li><a href="../media/atv_5a_53_paradise_luv_taylor_251910.mp3" class="mp3">Andy Taylor - Paradise Luv<span>mp3</span></a></li>
+	</ul>
 
 	<ul class="ui">
 		<li id="homepage_nav"><a class="nobold" href="index_me.html">Povratak na naslovnicu</a></li>

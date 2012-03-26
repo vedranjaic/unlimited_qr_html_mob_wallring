@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
+	<link rel="apple-touch-icon" href="/img/customIcon.png"/>
+	<link rel="apple-touch-startup-image" href="/img/startup.png" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link type="text/css" rel="stylesheet" href="/css/touch.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://code.google.com/apis/gears/gears_init.js" type="text/javascript" charset="utf-8"></script> 
+	<script src="/js/geo.js" type="text/javascript" charset="utf-8"></script>
+	<title>Unlimited QR</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var useragent = navigator.userAgent;
+			useragent = useragent.toLowerCase();
+
+			if (useragent.indexOf('iphone') != -1 ) 
+			{
+				$('#ring_iphone').show();
+			} 
+			else if(useragent.indexOf('android') != -1)
+			{
+				$('#ring_android').show();
+			}
+		});
+	</script>
+</head>
+
+<body>
+	<div id="head">
+		<table>
+			<tr>
+				<td>
+					<a href="javascript:history.go(-1);"><img id="ui_back" src="/img/back.png" alt="" /></a>
+				</td>
+				<td>
+					<a href="index_mk.html"><img src="/img/head.png" alt="Unlimited QR" /></a>
+				</td>
+			</tr>
+		</table>
+	</div><!-- /head -->
+
+	<h1>Рингтонови</h1>
+	<p class="w">Секој месец ве очекуваат нови рингтонови кои можете да поставите на вашите мобилни телефони</p>
+	
+	<div class="wall">
+		<img src="ringtones/ringtone_feat.jpg" width="100%" />
+	</div><!-- /.wall -->
+	
+	<div id="ring_iphone" style="display:none;">
+		<p>Вашиот iPhone оригинално нема можноста за преземање на рингтонови, ама препорачуваме да тоа направете преку оваа апликација <a href="itms-apps://itunes.apple.com/hr/app/downloads-lite-downloader/id349275540?mt=8&ls=1">Downloads Lite</a>.</p>
+	</div><!-- /.ring -->
+	
+	<div id="ring_android" style="display:none;">
+		<p>За да преземете рингтон на вашиот Андроид мобилен телефон ве молиме да одберете саканиот рингтон и држете се додека не ви се појави секундарен мени и тогаш одберете "Save link".</p>
+	</div><!-- /.ring -->
+	
+	<ul class="ui">
+		<li><a href="../media/selinas_kpm_549_1400.mp3" class="mp3">Jeevan Anandasivam - Selinas<span>mp3</span></a></li>
+		<li><a href="../media/chapav_185_3_funk_fever_salkeld_63122.mp3" class="mp3">Adam Salkeld - Funk Fever<span>mp3</span></a></li>
+		<li><a href="../media/atv_5a_53_paradise_luv_taylor_251910.mp3" class="mp3">Andy Taylor - Paradise Luv<span>mp3</span></a></li>
+	</ul>
+
+	<ul class="ui">
+		<li id="homepage_nav"><a class="nobold" href="index_mk.html">Назад</a></li>
+	</ul>
+ 
+
+<div class="data foot">
+<p>
+	<a href="wallpaper_mk.html">Галерија</a> &mdash; <a href="ringtone_mk.html">Рингтонови</a>
+</p>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2195567-50']);
+  _gaq.push(['_setDomainName', '.unlimited-qr.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
